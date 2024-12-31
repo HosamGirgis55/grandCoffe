@@ -1,0 +1,13 @@
+
+header{
+    max-width: 100%; 
+}
+.nav-link , .navbar-brand , .icon{
+    color: aliceblue !important;
+}
+.nav-link:hover {
+    color: #f76d37 !important;
+}
+.row{
+    margin: 0;
+}

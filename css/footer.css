@@ -1,0 +1,23 @@
+.foot {
+    background-color: rgb(67, 64, 64);
+    color: white;
+    margin-top: 2em;
+    text-align: left;
+}
+
+.foot h2 {
+    margin-top: 1em;
+}
+
+.foot li,
+.foot a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.foot li:hover,
+.foot a:hover {
+    color: #f76d37;
+    transition: 0.5s ease-in;
+}

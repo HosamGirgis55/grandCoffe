@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.contact-us{
+    padding: 10rem;
+}
+.title{
+    color: #f76d37 !important;
+    font-size: 3em;
+    font-weight: bold;
+}
+.search:hover{
+    display: block;
+    color: black;
+}
+.product img {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.product div {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 3em;
+}
+
+.product:hover div {
+    background-color: rgba(125, 131, 137, 0.649);
+    transition-duration: 1s;
+}
+.product:hover i{
+    display: block !important;
+}
+.product i:hover{
+    color: #f76d37 !important;
+    transition-duration: 1s;
+
+}
+#btnSee{
+    width: 110px;
+    height: 50px;
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    border-radius: 8px;
+    font-size: large;
+}
+#btnSee:hover {
+    background-color: #f76d37 ;
+    transition-duration: 0.5s;
+}

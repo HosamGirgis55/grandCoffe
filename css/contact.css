@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+.row{
+    margin: 0;
+}
+
+.contact-us{
+    padding: 10% 10%;
+}
+.title{
+    color: #f76d37 !important;
+    font-size: 3em;
+    font-weight: bold;
+}
+.image{
+    border-radius: 2em;
+    height: 32em;
+}
+.Name {
+    width: 80%;
+    border-radius:35px ;
+    padding: 1% 5%;
+    margin: 2% 10%;
+}
+.btnSend{
+    background-color: black;
+    color: white;
+    font-size: x-large;
+    border-radius: 8px;
+    padding: 8px;
+    border: none;
+}
+.btnSend:hover{
+    background-color: #f76d37;
+}
+@media screen and (max-width : 600px){
+     .contact-us {
+        padding: 15% 0%;
+    }  
+     
+    .image{
+        height: 320px;
+    }
+}

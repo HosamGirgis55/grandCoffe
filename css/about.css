@@ -1,0 +1,29 @@
+.about {
+    padding: 10rem;
+}
+
+.container h1 {
+    color: #f76d37;
+    font-weight: bold;
+    padding-top: 1.5em;
+}
+
+.container p {
+    font-size: large;
+}
+
+.container #btn {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: large;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+}
+
+.container #btn:hover {
+    background-color: #f76d37;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
